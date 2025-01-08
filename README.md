@@ -1,26 +1,22 @@
+# Projeto: Lista de tarefas
 
-# Lista de Tarefas
+## Descrição
 
-Este é um aplicativo simples de **Lista de Tarefas** criado com HTML, CSS e JavaScript. Ele permite que você adicione, edite, remova e marque tarefas como concluídas. As tarefas são organizadas por data e prioridade.
+Este é um aplicativo simples de Lista de Tarefas criado com HTML, CSS e JavaScript. Ele permite que você adicione, edite, remova e marque tarefas como concluídas. As tarefas são organizadas por data e prioridade.
 
 ## Funcionalidades
 
-- **Adicionar Tarefas**: Você pode adicionar novas tarefas com título, data de entrega, horário e prioridade.
-- **Visualização de Tarefas**: As tarefas são listadas e agrupadas por data de entrega.
-- **Editar Tarefas**: É possível editar os detalhes de cada tarefa.
-- **Remover Tarefas**: Você pode excluir tarefas da lista.
-- **Marcar como Concluída**: As tarefas podem ser marcadas como concluídas, com a opção de riscar o texto.
+- **Adicionar Tarefas**: você pode adicionar novas tarefas com título, data de entrega, horário e prioridade.
+- **Visualização das Tarefas**: As tarefas são listadas e agrupadas por data de entrega.
+- **Editar Tarefas**: É possível editar as tarefas depois de registrá-las.
+- **Remover Tarefas**: Você pode excluir tarefas.
+- **Marcar como Concluída**: As tarefas podem ser marcadas como concluídas, o texto aparece riscado ao serem concluidos.
 
-## Estrutura do Projeto
+## Tecnologias Utilizadas
 
-### HTML
-O arquivo HTML define a estrutura básica da página, com um campo de entrada para as tarefas, um seletor de prioridade, e botões para adicionar, editar, remover e marcar tarefas como concluídas.
-
-### CSS
-O CSS aplica estilos modernos e responsivos, com uma interface limpa e fácil de usar. Ele usa flexbox para alinhar os campos e botões e fornece transições suaves para os itens da lista.
-
-### JavaScript
-O JavaScript gerencia a lógica do aplicativo, incluindo a criação e a manipulação de tarefas. Ele permite que o usuário adicione tarefas à lista, edite as existentes, exclua tarefas e marque-as como concluídas. As tarefas são agrupadas por data e renderizadas dinamicamente na interface.
+- **HTML5**: Estrutura do site.
+- **CSS (Bootstrap 5)**: Estilização da página e layout responsivo.
+- **JavaScript**:  Lógica para gerenciar e renderizar tarefas.
 
 ## Como Usar
 
@@ -29,32 +25,28 @@ O JavaScript gerencia a lógica do aplicativo, incluindo a criação e a manipul
     git clone https://github.com/seu-usuario/lista-de-tarefas.git
     ```
 
-2. **Abra o Projeto**:
-   Abra o arquivo `index.html` no seu navegador.
+2. **Abra o arquivo html no seu navegador.**
+   
+3. **Preencha os campos e clique em "Adicionar Tarefa".**
+   
+4. **Clique em "Editar" ou "Remover" ao lado de alguma tarefa adicionada para testar a eexclusão e edição.**
+   
+5. **Clique em "Concluir" para marcar uma tarefa como concluída. O texto será riscado e a tarefa será movida para o estado "concluída" junto com outras no  mesmo estado.**
+   
 
-3. **Adicionar Tarefas**:
-   Preencha os campos de tarefa, data, horário e prioridade, e clique em "Adicionar Tarefa".
+## Estrutura de Diretórios
 
-4. **Editar ou Remover Tarefas**:
-   Clique em "Editar" ou "Remover" ao lado de qualquer tarefa na lista.
-
-5. **Marcar Como Concluída**:
-   Clique em "Concluir" para marcar uma tarefa como concluída. O texto será riscado e a tarefa será movida para o estado "concluída".
-
-## Tecnologias Utilizadas
-
-- **HTML**: Estrutura básica da página.
-- **CSS**: Estilos responsivos e modernos.
-- **JavaScript**: Lógica para gerenciar e renderizar tarefas.
-
-## Contribuindo
-
-Sinta-se à vontade para contribuir para este projeto! Se você encontrar algum bug ou tiver sugestões de melhorias, abra um **issue** ou envie um **pull request**.
-
-## Licença
-
-Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
+```
+/assets
+    /logoSenac.svg        # Logo da Senac
+/index.html              # Arquivo principal HTML
+```
 ---
 
-❤️ © 2024-2025 Lista de Tarefas | Desenvolvimento de Sistemas | SENAC
+**Autor**: Laira Lyriel
+**Data de Criação**: 2024  
+**Licença**: MIT
+
+--------------------------------------
+
+© 2024 - Lita de tarefas | Desenvolvimento de Sistemas | Senac
