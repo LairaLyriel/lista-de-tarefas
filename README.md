@@ -22,7 +22,7 @@ Este é um aplicativo simples de Lista de Tarefas criado com HTML, CSS e JavaScr
 
 1. **Clone o Repositório**:
     ```bash
-    git clone https://github.com/seu-usuario/lista-de-tarefas.git
+    git clone https://github.com/LairaLyriel/lista-de-tarefas.git
     ```
 
 2. **Abra o arquivo html no seu navegador.**
